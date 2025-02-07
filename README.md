@@ -118,6 +118,8 @@ See code for all available configurations.
 | [Chuwi MiniBook X](chuwi/minibook-x)                                              | `<nixos-hardware/chuwi/minibook-x>`                     |
 | [Deciso DEC series](deciso/dec)                                                   | `<nixos-hardware/deciso/dec>`                           |
 | [Dell G3 3779](dell/g3/3779)                                                      | `<nixos-hardware/dell/g3/3779>`                         |
+| [Dell G3 3579](dell/g3/3579)                                                      | `<nixos-hardware/dell/g3/3579>`                         |
+| [Dell Inspiron 3442](dell/inspiron/3442)                                       | `<nixos-hardawre/dell/inspiron/3442>`                |
 | [Dell Inspiron 14 5420](dell/inspiron/14-5420)                                    | `<nixos-hardawre/dell/inspiron/14-5420>`                |
 | [Dell Inspiron 5509](dell/inspiron/5509)                                          | `<nixos-hardware/dell/inspiron/5509>`                   |
 | [Dell Inspiron 5515](dell/inspiron/5515)                                          | `<nixos-hardware/dell/inspiron/5515>`                   |
@@ -129,6 +131,7 @@ See code for all available configurations.
 | [Dell Latitude 5520](dell/latitude/5520)                                          | `<nixos-hardware/dell/latitude/5520>`                   |
 | [Dell Latitude 7280](dell/latitude/7280)                                          | `<nixos-hardware/dell/latitude/7280>`                   |
 | [Dell Latitude 7390](dell/latitude/7390)                                          | `<nixos-hardware/dell/latitude/7390>`                   |
+| [Dell Latitude 7420](dell/latitude/7420)                                          | `<nixos-hardware/dell/latitude/7420>`                   |
 | [Dell Latitude 7430](dell/latitude/7430)                                          | `<nixos-hardware/dell/latitude/7430>`                   |
 | [Dell Latitude 7490](dell/latitude/7490)                                          | `<nixos-hardware/dell/latitude/7490>`                   |
 | [Dell Latitude 9430](dell/latitude/9430)                                          | `<nixos-hardware/dell/latitude/9430>`                   |
@@ -181,6 +184,7 @@ See code for all available configurations.
 | [GPD MicroPC](gpd/micropc)                                                        | `<nixos-hardware/gpd/micropc>`                          |
 | [GPD P2 Max](gpd/p2-max)                                                          | `<nixos-hardware/gpd/p2-max>`                           |
 | [GPD Pocket 3](gpd/pocket-3)                                                      | `<nixos-hardware/gpd/pocket-3>`                         |
+| [GPD Pocket 4](gpd/pocket-4)                                                      | `<nixos-hardware/gpd/pocket-4>`                         |
 | [GPD WIN 2](gpd/win-2)                                                            | `<nixos-hardware/gpd/win-2>`                            |
 | [GPD WIN Max 2 2023](gpd/win-max-2/2023)                                          | `<nixos-hardware/gpd/win-max-2/2023>`                   |
 | [GPD WIN Mini 2024](gpd/win-mini/2024)                                            | `<nixos-hardware/gpd/win-mini/2024>`                    |
@@ -190,8 +194,9 @@ See code for all available configurations.
 | [HP Elitebook 845g7](hp/elitebook/845/g7)                                         | `<nixos-hardware/hp/elitebook/845/g7>`                  |
 | [HP Elitebook 845g8](hp/elitebook/845/g8)                                         | `<nixos-hardware/hp/elitebook/845/g8>`                  |
 | [HP Elitebook 845g9](hp/elitebook/845/g9)                                         | `<nixos-hardware/hp/elitebook/845/g9>`                  |
-| [HP Notebook 14-df0023](hp/notebook/14-df0023)                                    | `<nixos-hardware/hp/notebook/14-df0023>`                |
 | [HP Laptop 14s-dq2024nf](hp/laptop/14s-dq2024nf)                                  | `<nixos-hardware/hp/laptop/14s-dq2024nf>`               |
+| [HP Notebook 14-df0023](hp/notebook/14-df0023)                                    | `<nixos-hardware/hp/notebook/14-df0023>`                |
+| [HP Probook 440G5](hp/probook/440g5)                                              | `<nixos-hardware/hp/probook/440g5>`                     |
 | [Huawei Matebook X Pro (2020)](huawei/machc-wa)                                   | `<nixos-hardware/huawei/machc-wa>`                      |
 | [i.MX8QuadMax Multisensory Enablement Kit](nxp/imx8qm-mek/)                       | `<nixos-hardware/nxp/imx8qm-mek>`                       |
 | [Intel NUC 8i7BEH](intel/nuc/8i7beh/)                                             | `<nixos-hardware/intel/nuc/8i7beh>`                     |
@@ -262,6 +267,7 @@ See code for all available configurations.
 | [Lenovo ThinkPad T480](lenovo/thinkpad/t480)                                      | `<nixos-hardware/lenovo/thinkpad/t480>`                 |
 | [Lenovo ThinkPad T480s](lenovo/thinkpad/t480s)                                    | `<nixos-hardware/lenovo/thinkpad/t480s>`                |
 | [Lenovo ThinkPad T490](lenovo/thinkpad/t490)                                      | `<nixos-hardware/lenovo/thinkpad/t490>`                 |
+| [Lenovo ThinkPad T490s](lenovo/thinkpad/t490s)                                    | `<nixos-hardware/lenovo/thinkpad/t490s>`                |
 | [Lenovo ThinkPad T495](lenovo/thinkpad/t495)                                      | `<nixos-hardware/lenovo/thinkpad/t495>`                 |
 | [Lenovo ThinkPad T520](lenovo/thinkpad/t520)                                      | `<nixos-hardware/lenovo/thinkpad/t520>`                 |
 | [Lenovo ThinkPad T550](lenovo/thinkpad/t550)                                      | `<nixos-hardware/lenovo/thinkpad/t550>`                 |
@@ -319,7 +325,9 @@ See code for all available configurations.
 | [NXP iMX8 MQuad Evaluation Kit](nxp/imx8mq-evk)                                   | `<nixos-hardware/nxp/imx8mq-evk>`                       |
 | [Hardkernel Odroid HC4](hardkernel/odroid-hc4/default.nix)                        | `<nixos-hardware/hardkernel/odroid-hc4>`                |
 | [Hardkernel Odroid H3](hardkernel/odroid-h3/default.nix)                          | `<nixos-hardware/hardkernel/odroid-h3>`                 |
+| [Hardkernel Odroid H4](hardkernel/odroid-h4/default.nix)                          | `<nixos-hardware/hardkernel/odroid-h4>`                 |
 | [Omen 14-fb0798ng](omen/14-fb0798ng)                                              | `<nixos-hardware/omen/14-fb0798ng>`                     |
+| [Omen 15-ce002ns](omen/15-ce002ns)                                                | `<nixos-hardware/omen/15-ce002ns>`                      |
 | [Omen 15-en0010ca](omen/15-en0010ca)                                              | `<nixos-hardware/omen/15-en0010ca>`                     |
 | [Omen 16-n0005ne](omen/16-n0005ne)                                                | `<nixos-hardware/omen/16-n0005ne>`                      |
 | [Omen 16-n0280nd](/omen/16-n0280nd)                                               | `<nixos-hardware/omen/16-n0280nd>`                      |
@@ -335,6 +343,7 @@ See code for all available configurations.
 | [Purism Librem 13v3](purism/librem/13v3)                                          | `<nixos-hardware/purism/librem/13v3>`                   |
 | [Purism Librem 15v3](purism/librem/13v3)                                          | `<nixos-hardware/purism/librem/15v3>`                   |
 | [Purism Librem 5r4](purism/librem/5r4)                                            | `<nixos-hardware/purism/librem/5r4>`                    |
+| [Radxa ROCK 4C+](radxa/rock-4c-plus)                                              | `<nixos-hardware/radxa/rock-4c-plus>`                   |
 | [Raspberry Pi 2](raspberry-pi/2)                                                  | `<nixos-hardware/raspberry-pi/2>`                       |
 | [Raspberry Pi 3](raspberry-pi/3)                                                  | `<nixos-hardware/raspberry-pi/3>`                       |
 | [Raspberry Pi 4](raspberry-pi/4)                                                  | `<nixos-hardware/raspberry-pi/4>`                       |
