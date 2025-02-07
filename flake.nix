@@ -55,6 +55,9 @@
         beagleboard-pocketbeagle = import ./beagleboard/pocketbeagle;
         chuwi-minibook-x = import ./chuwi/minibook-x;
         deciso-dec = import ./deciso/dec;
+        dell-e7240 =
+          deprecated "1326" "dell-e7240"
+            (import ./dell/e7240);
         dell-g3-3779 = import ./dell/g3/3779;
         dell-g3-3579 = import ./dell/g3/3579;
         dell-inspiron-14-5420 = import ./dell/inspiron/14-5420;
